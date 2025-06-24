@@ -16,7 +16,7 @@ insertSQL="insert into lottery(n1,n2,n3,n4,n5,n6) vallues(%s,%s,%s,%s,%s,%s)"
 
 parserdata=(6,11,20,31,34,38)
 
-dbcursor.execote(insertSQL,parserdata)
+dbcursor.execute(insertSQL,parserdata)
 print("完成交易")
 cnx.commit()
 
